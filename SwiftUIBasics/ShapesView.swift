@@ -47,9 +47,9 @@ struct ShapesView: View {
                      .foregroundColor(.white)
                      .font(.headline)
 
-                 Text("World")
-                     .foregroundColor(.white)
-                     .font(.headline)
+//                 Text("World")
+//                     .foregroundColor(.white)
+//                     .font(.headline)
              }
          }
     }
