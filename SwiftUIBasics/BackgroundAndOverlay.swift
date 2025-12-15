@@ -17,7 +17,7 @@ struct BackgroundAndOverlay: View {
                 Circle()
                     .fill(
                         LinearGradient(
-                            colors: [.blue, .purple, .pink, .red],
+                            colors: [Color(#colorLiteral(red: 0.7254902124, green: 0.4784313738, blue: 0.09803921729, alpha: 1)), Color(#colorLiteral(red: 0.3647058904, green: 0.06666667014, blue: 0.9686274529, alpha: 1)), .pink, .red],
                             startPoint: .topLeading,
                             endPoint: .bottomTrailing
                         )
