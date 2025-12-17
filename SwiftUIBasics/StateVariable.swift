@@ -88,13 +88,9 @@ struct StateVariable: View {
                        isLightOn.toggle()
                    }
                    .padding()
-                   
-                   .background(
-                    Color.blue
-                        .cornerRadius(10)
-                   )
-                   
+                   .background(Color.blue)
                    .foregroundColor(Color.white)
+                   .cornerRadius(10)
                    
                }
     }
